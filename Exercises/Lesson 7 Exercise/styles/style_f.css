@@ -1,0 +1,26 @@
+p{
+    font-family: Arial;
+    font-size: 14.75px;
+}
+
+.text-type{
+    color: rgb(107, 107, 107);
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+input{
+    height: 25px;
+    width: 360px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgb(59, 59, 233);
+    color: white;
+    border: none;
+    height: 50px;
+    width: 360px;
+    border-radius: 50px;
+    font-size: 18px;
+}
