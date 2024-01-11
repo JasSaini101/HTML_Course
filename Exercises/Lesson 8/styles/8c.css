@@ -1,0 +1,18 @@
+img{
+    display: block;
+    margin-left: 120px;
+    object-position: center;
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+input{
+    font-size: 16px;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    width: 500px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+}

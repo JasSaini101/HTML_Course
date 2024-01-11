@@ -1,0 +1,35 @@
+div{
+    display: inline-block;
+    box-shadow: 5px 5px rgba(220,220,220,0.8);
+}
+
+img{
+    height: 200px;
+    margin-bottom: 4px;
+}
+
+p{
+    font-family: Arial;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stats{
+    margin-bottom: 12px;
+}
+
+button{
+    background-color: rgb(55, 126, 218);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
