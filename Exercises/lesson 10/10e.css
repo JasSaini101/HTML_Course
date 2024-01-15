@@ -1,0 +1,54 @@
+.profile-preview{
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    margin-left: 16px;
+}
+
+.profile-info{
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+img{
+    height: 200px;
+    margin-bottom: 4px;
+}
+
+.my-profile{
+    border-radius: 50px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
+}
+
+p{
+    font-family: Arial;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stats{
+    vertical-align: top;
+    margin-bottom: 12px;
+    display: inline-block;
+    color: rgb(96,96,96);
+    font-size: 14px;
+}
+
+button{
+    display: block;
+    background-color: rgb(55, 126, 218);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
