@@ -1,0 +1,22 @@
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    width: 100px;
+    align-items: center;
+}
+
+.right{
+    width: 200px;
+    background-color: lightblue;
+}
+
+p{
+    color: white;
+    background-color: black;
+}
