@@ -1,0 +1,45 @@
+body{
+    height: 1000px;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
+
+.overlay{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal{
+    background-color: white;
+    width: 300px;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    font-family: Arial;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.message{
+    font-family: 12px;
+    margin-bottom: 12px;
+}

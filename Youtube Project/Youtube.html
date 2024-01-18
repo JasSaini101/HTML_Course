@@ -9,6 +9,13 @@
 
         <style>
 
+            body{
+                margin: 0px;
+                padding-top: 80px;
+                padding-left: 80px;
+                background-color: rgb(240, 240, 240);
+            }
+
             p{
                 margin-top: 0;
                 margin-bottom: 0;
@@ -57,7 +64,16 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                height: 60px;
+                height: 55px;
+                position: fixed;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                background-color: white;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-bottom-color: rgb(235,235,235);
+
             }
 
             .left-section{
@@ -97,7 +113,7 @@
                 width: 0px;
                 flex: 1;
                 height: 36px;
-                font-size: 16px;
+                padding-left: 10px;
                 border: 1px;
                 border-style: solid;
                 border-color: rgb(192,192,192);
@@ -105,10 +121,9 @@
                 box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
             }
 
-            .search-bar::placeholder{
+            .search-bar, .search-bar::placeholder{
                 font-family: Roboto, Arial;
                 font-size: 16px;
-                padding-left: 10px;
             }
 
             .search-button{
@@ -157,6 +172,15 @@
                 border-radius: 16px;
             }
 
+            .sidebar{
+                position: fixed;
+                left: 0px;
+                bottom: 0px;
+                top: 55px;
+                width: 72px;
+                background-color: white;
+            }
+
         </style>
     </head>
     <body>
@@ -180,6 +204,9 @@
                 <img class="notifications-icon" src="Images/icons/notifications.svg">
                 <img class="user-profile-picture" src="Images/profile-pictures/my-channel.jpeg">
             </div>
+        </div>
+        <div class="sidebar">
+
         </div>
         <div class="video-grid">
             <div class="video-preview">
