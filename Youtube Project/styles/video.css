@@ -1,10 +1,11 @@
 .thumbnail-row{
     position: relative;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .thumbnail{
     width: 100%;
+    cursor: pointer;
 }
 
 .video-info-grid{
@@ -20,14 +21,15 @@
 .video-title{
     font-weight: 500;
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     font-size: 14px;
     line-height: 20px;
+    color: black;
 }
 
-.video-author, .video-stats{
+.author-link, .video-stats{
     color: rgb(96,96,96);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .video-author{
@@ -53,4 +55,48 @@
     font-weight: 500;
     padding: 4px;
     border-radius: 2px;
+}
+
+.video-picture{
+    position: relative;
+}
+
+
+.channel-preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    position: absolute;
+    bottom: -28px;
+    background-color: rgb(255, 255, 255);
+    width: 220px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.15);
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.channel-preview .profile-picture{
+    width: 52px;
+    border-radius: 26px;
+}
+
+.channel-info{
+    margin-left: 12px;
+    font-family: Roboto, Arial;
+}
+
+.channel-info .channel-name{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.channel-info .subscription-amount{
+    font-size: 14px;
+}
+
+.profile-link:hover .channel-preview{
+    opacity: 1;
 }
