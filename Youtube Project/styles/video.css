@@ -65,6 +65,19 @@
     .video-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    .video-title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .video-info-grid{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1201px){
+
 }
 
 .video-time{
@@ -82,7 +95,6 @@
 .video-picture{
     position: relative;
 }
-
 
 .channel-preview{
     display: flex;
