@@ -74,7 +74,6 @@
     right: 4px;
     bottom: 12px;
     font-size: 12px;
-    font-family: Roboto, Arial;
     font-weight: 500;
     padding: 4px;
     border-radius: 2px;
@@ -108,7 +107,6 @@
 
 .channel-info{
     margin-left: 12px;
-    font-family: Roboto, Arial;
 }
 
 .channel-info .channel-name{
