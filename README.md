@@ -1,5 +1,16 @@
-All of the CSS and HTML files are for an online course I took over winter break.
-The course is on youtube under the channel SuperSimpleDev.
-Great course, truly feel like I understand HTML and CSS at a higher level
-and with my coding background, it won't be hard to pick up what wasn't mentioned
-in the course. 
+# 🎓 HTML & CSS Online Course
+
+> Free YouTube Course Used: [HTML & CSS Course](https://www.youtube.com/watch?v=G3e-cpL7ofc)  
+![image](https://github.com/JasSaini101/HTML_Course/assets/83828348/74af59d2-67f4-4524-971d-3444a0e65648)
+
+## 💡 Motivation
+During my 2023-24 Winter Break, I decided to dive into the basics of front-end development. My journey began with learning the essential building block languages for all websites: HTML and CSS. I discovered a fantastic 7-hour free course on YouTube that provided clear instructions, engaging exercises, and a final project to solidify my knowledge.
+
+## 📚 What I Learned
+I mastered the skills needed to create and design any website using HTML and CSS. To practice, I searched for professional websites online and replicated them to demonstrate my understanding of creating logical and functional professional layouts.
+
+## 🛠️ Challenges
+While creating elements was straightforward, logically planning the layout using grid or other methods required practice. Additionally, the numerous CSS styling options often conflicted with each other, making it challenging to ensure everything worked harmoniously.
+
+## 🎉 Final Remarks
+I am incredibly proud of myself for dedicating my free time to improving and expanding my skill set. HTML and CSS are fundamental languages that are essential for all software developers. Since taking this course, the skills I have gained have been invaluable in multiple projects such as HandSlate and JobNav!
